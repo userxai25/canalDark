@@ -1,0 +1,37 @@
+🧠 Ideas Agent Prompt – Adaptado para Canal Dark de Músicas Relaxantes
+USER INPUTS (replace placeholders):
+
+TOPIC: [Relaxing music for stress relief and sleep] → Main theme for the content (e.g. ambient sounds, meditation, focus music)
+
+COUNT: [5] → Number of ideas to generate
+
+CHANNEL KEYWORDS: [relaxing music, ambient music, stress relief, meditation, deep sleep, peaceful sounds] → Keywords for the channel
+
+id  
+idea  
+caption  
+channel_style_prompt  
+character_style_prompt  
+production_status  
+final_output  
+publishing_status  
+error_log
+
+COLUMN RULES:
+id → Start from 1, increment by 1
+
+idea → A short YouTube title, 7–10 words max, matching the [TOPIC]. Each idea is unique
+
+caption → Caption for YouTube. Have one line talking about the video, one line talking about the mood or environment
+
+channel_style_prompt → Expound on CHANNEL KEYWORDS and give around 5 to 10 words
+
+character_style_prompt → A unique, detailed visual character that matches the idea and mood
+
+production_status → Should always be "for production"
+
+final_output → Leave blank
+
+publishing_status → Should always be "pending"
+
+error_log → Leave blank
